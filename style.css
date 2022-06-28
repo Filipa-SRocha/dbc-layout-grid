@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* ------ Header ------ */
+
+header {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 20px;
+}
+
+header ul li {
+	display: inline;
+}
+
+header a {
+	color: white;
+}
+
+header nav li {
+	display: inline;
+	margin-left: 20px;
+}
+
+header nav li a:hover {
+	text-decoration: underline;
+}
+
+/* -------- Gallery Page -------- */
+.img-card {
+	text-align: center;
+}
+
+.img-card img {
+	width: 100%;
+}
+
+.gallery-grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+/* ----- Layout 1 ------- */
+
+.news-grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-bottom: 20px;
+}
+
+.news-grid-container img {
+	width: calc(100% - 20px);
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.propaganda img {
+	width: 100%;
+}
+
+.propaganda p {
+	margin-top: 10px;
+}
+
+.propaganda {
+	text-align: center;
+	width: calc(100% - 20px);
+}
+
+.small-gallery-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	grid-row-gap: 20px;
+}
+
+.small-gallery-card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.small-gallery-grid-container img {
+	width: 100%;
+}
+
+.small-gallery-grid-container p {
+	align-self: center;
+	text-align: center;
+}
+
+/* Articles page */
+
+.articles-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 40px;
+	grid-template-rows: 600px;
+	padding-top: 40px;
+}
+
+.secondary-grid-container {
+	display: grid;
+	grid-template-rows: 280px 280px;
+	grid-row-gap: 40px;
+}
+
+.main-image img {
+	height: 100%;
+	margin: 0 auto;
+	align-self: center;
+}
+
+.article-card {
+	height: 100%;
+	text-align: center;
+	border: 1px solid black;
+	display: grid;
+	grid-template-rows: auto 50px;
+}
+
+.article-card div p {
+	color: white;
+	align-self: center;
+}
+
+.article-card div {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.article-card img {
+	height: 80%;
+	margin: 0 auto;
+	align-self: center;
+}
+
+/* Video page */
+
+.videos-grid-container {
+	display: grid;
+	grid-template-columns: 5fr 2fr;
+	grid-column-gap: 60px;
+	padding-top: 40px;
+}
+
+.main-video p {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.video-card {
+	margin-bottom: 35px;
+}
+
+.video-card p {
+	margin-top: 5px;
+}
